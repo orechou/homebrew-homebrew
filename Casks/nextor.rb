@@ -1,8 +1,11 @@
-class Nextor < Formula
+cask "nextor" do
+  version "0.1.0"
+  sha256 "e34c1f1114257f3846b0488d5a0e18211c67690a4f27002eb03b3fb967cede72"
+
+  url "https://github.com/orechou/nextor/releases/download/v#{version}/Nextor_#{version}_universal.dmg"
+  name "Nextor"
   desc "A modern Markdown editor with Mermaid support and file management"
   homepage "https://github.com/orechou/nextor"
-  url "https://github.com/orechou/nextor/releases/download/v0.1.0/Nextor_0.1.0_universal.dmg"
-  sha256 "e34c1f1114257f3846b0488d5a0e18211c67690a4f27002eb03b3fb967cede72"
 
   app "Nextor.app"
 
